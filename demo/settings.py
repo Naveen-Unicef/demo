@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',        'HOST': 'localhost',
-        'USER': 'demo_user',
-        'PASSWORD': 'demo_pass',
-        'NAME': 'demo_db',
-        'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'USER': 'temba',
+        'PASSWORD': 'temba',
+        'NAME': 'temba',
+        'HOST': 'database'
     }
 }
 
