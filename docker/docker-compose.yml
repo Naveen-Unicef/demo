@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  application:
+    image: unicef/indiapp
+    ports:
+      - "8080:8000"
+    depends_on:
+      - database
+
+  database:
+    image: unicef/india:Naveen-Unicef
